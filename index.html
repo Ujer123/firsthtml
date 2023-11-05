@@ -2,132 +2,177 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Website</title>
+    <title>First Html</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>First Heading</h1>
-    <h2>First Heading</h2>
-    <h3>First Heading</h3>
-    <h4>First Heading</h4>
-    <h5>First Heading</h5>
-    <h6>First Heading</h6>
-    <p>Lorem ipsum dolor <strong> Ujer</strong> amet consectetur <i>Shaikh</i> adipisicing elit. Maxime dicta optio sed
-        quo perspiciatis inventore suscipit recusandae, temporibus, quas reprehenderit blanditiis consequuntur earum
-        modi saepe ratione exercitationem et debitis rerum?</p>
 
-    <!-- order list -->
-    <h1>Sumer juice</h1>
+    <h1 class="red"> red </h1>
+    <h2 class="blue"> blue </h2>
+    <h3 class="green">green </h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6><b></b>
+
+    <p class="para">Lorem ipsum <b>dolor</b> <i>sit</i>amet, consectetur adipiscing elit. <br>Donec sit amet metus
+        consectetur libero posuere pulvinar. Praesent sit amet orci aliquam, viverra ex vel, auctor massa. Quisque
+        accumsan vel ex vel consectetur. Sed neque enim, mattis vitae sapien ut, lobortis efficitur lectus. Vestibulum
+        nibh elit, bibendum vitae nunc eu, lobortis sagittis enim. Suspendisse porttitor nec est maximus viverra. Aenean
+        vitae urna iaculis quam mollis rhoncus. Morbi in diam ultricies, sagittis sem eget, lobortis mi. Morbi
+        fringilla, felis a viverra eleifend, sem est sollicitudin massa, vitae finibus ligula mi et nulla.
+    </p>
+
+    <h3> SUPER CARS </h3>
     <ol>
-        <li>Mango juice</li>
-        <li>Lemon juice</li>
-        <li>Pineapple juice</li>
-        <li>Orange juice</li>
+        <li>Supra</li>
+        <li>Lamborghini</li>
+        <li>Audi R8</li>
     </ol>
 
-    <!-- Unorder list -->
-    <h1>Part juice</h1>
+    <h4>SUPER BIKE</h4>
     <ul>
-        <li> Apple juice </li>
-        <li> cocktail juice </li>
-        <li> chikku juice </li>
+        <li>Kawasaki Ninja H2</li>
+        <li>BMW S 1000 R</li>
+        <li>Ninja ZX-10R</li>
     </ul>
 
-    <img src="img/car.jpg" alt="This is my car image" style="width: 400px; height: 400px;">
+    <img src="img/car.jpg" alt=" this is car img" style="width: 400px;height: 300px;">
 
     <table>
         <tr>
-            <th>Sr No.</th>
-            <th>Student Name.</th>
-            <th>Student Marks.</th>
+            <th> sr no.</th>
+            <th>Student Name</th>
+            <th>Student Name</th>
         </tr>
+
         <tr>
             <td>1</td>
-            <td>Ujer</td>
-            <td>50</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Shahid</td>
+            <td>Faraaz</td>
             <td>80</td>
         </tr>
+
+
     </table>
 
-    <section class="CarMain">
 
-        <div class="CarImg">
-            <img src="img/car.jpg" alt="My car">
-        </div>
+    <section class="cardMAin">
+        <div class="ClassMainheading"> </div>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CAR
+        </h3> <!--  &nbsp use for for space -->
+        <div> <img src="img/car.jpg"> </div>
 
-        <div class="Carheading">
-            <h1>Ujer</h1>
-        </div>
+        <table>
+            <tr>
+                <th>NAME</th>
+                <th>Brand</th>
+                <th>Price</th>
+            </tr>
 
-        <div class="CarP">
-            <p>Engineer</p>
-        </div>
+            <tr>
+                <td>Supra</td>
+                <td>Toyota</td>
+                <td>8000000</td>
+            </tr>
+        </table>
 
-    </section>
+        <p> <b>The Toyota Supra MK4 is equipped with a twin-turbo 3.0-litre straight six which can produce up 320Hp<br>
+                and around 440 Nm of torque and is known as the 2JZ-series . The acceleration of this car from 0 to
+                100kmh<br> is around 4.9 seconds, and the top speed can reach up to 277kmh.
+        </p></b>
 
-    <div>
-        <video style="width: 300px; height: 300px;" controls>
-            <source
-                src="video/stock-footage-woman-bicyclist-in-helmet-riding-on-orange-background-in-the-city-on-sport-retro-bike-k-video.webm"
-                type="video/mp4" autoplay>
-        </video>
-    </div>
+        <section class="cardMAin">
+            <div class="ClassMainheading"> </div>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CAR
+            </h3> <!--  &nbsp use for for space -->
+            <div> <img src="img/car.jpg"> </div>
 
-    <div>
-        <button type="button">click me</button>
-        <a href="youtube.com">Amazon Website</a>
-    </div>
+            <table>
+                <tr>
+                    <th>NAME</th>
+                    <th>Brand</th>
+                    <th>Price</th>
+                </tr>
 
-    <form type="submit" method="post" action="">
-        <label>Enter Name</label><br>
-        <input type="text" name="name" class="Pname" placeholder="enter your name" required>
-        <br><br>
-        <label>Enter Phone Number</label><br>
-        <input type="contact" class="Pnum" placeholder="enter phone number"><br><br>
-        <label>Enter password</label><br>
-        <input type="password" name="password" class="Ppass">
-        <br><br>
+                <tr>
+                    <td>Supra</td>
+                    <td>Toyota</td>
+                    <td>8000000</td>
+                </tr>
 
-        <label>Choose Subject</label><br>
-        <input type="checkbox" name="maths">maths</input>
-        <input type="checkbox" name="english">english</input>
-        <input type="checkbox" name="hindi">hindi</input>
-        <input type="checkbox" name="marathi">marathi</input>
-        <br><br>
+            </table>
 
-        <label>select gender</label><br>
-        <input type="radio" name="gender" value="Male">Male</input>
-        <input type="radio" name="gender" value="Female">Female</input>
-        <br><br>
+            <p> <b>The Toyota Supra MK4 is equipped with a twin-turbo 3.0-litre straight six which can produce up
+                    320Hp<br> and around 440 Nm of torque and is known as the 2JZ-series . The acceleration of this car
+                    from 0 to 100kmh<br> is around 4.9 seconds, and the top speed can reach up to 277kmh.
+            </p></b>
 
-        <label>select Course</label><br>
-        <select>
-            <option value=""selected></option>
-            <option value="frontend"selected>frontend</option>
-            <option value="backend"selected>backend</option>
-            <option value="full stack"selected>full stack</option>
-        </select><br><br>
+            <video height="315" width="560" controls>
+                <source
+                    src="video/stock-footage-woman-bicyclist-in-helmet-riding-on-orange-background-in-the-city-on-sport-retro-bike-k-video.webm"
+                    type="video/webm">
+            </video>
 
-        <label>select date</label><br>
-        <input type="date">
-        <br><br>
+        </section><br><br><br><br><br>
+        <button class="bt" type="button">Click Me!</button>
 
-        <label>select file</label>
-        <br>
-        <input type="file">
-        <br><br>
-        <label>Enter Message</label><br>
-        <textarea type="text" name="" id="" cols="30" rows="10"></textarea><br>
-        <input type="submit">
-    </form>
+        <a class="yt" href="https://www.youtube.com"> YouTube.com</a><br>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.2249021494467!2d72.83105540000001!3d18.965672400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfdf5cadca43%3A0x2f248f63460fcd4f!2sHeuristic%20Academy!5e0!3m2!1sen!2sin!4v1699115342183!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cctcq9eOPOg?si=dRMkdFj82UCB9pkH"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe><br><br><br>
+
+        <iframe width="560" height="315"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15092.919642011602!2d72.8312617!3d18.9654511!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfdf5cadca43%3A0x2f248f63460fcd4f!2sHeuristic%20Academy!5e0!3m2!1sen!2sin!4v1699114420263!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+
+        <form>
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="FirstName"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="LastName"><br><br>
+            <label type="Enter Number" Enter Number </label>
+                <input type="number" id="number" value="Enter Number"><br><br>
+
+                <p>Choose your favorite Web language:</p>
+
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+
+                <br><br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br><br>
+
+
+
+
+                <label>select one</label>
+                <select>
+                    <option value=""></option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                </select>
+
+                <br><br>
+                <input type="submit" value="Submit">
+
+        </form>
 </body>
+
 </html>
